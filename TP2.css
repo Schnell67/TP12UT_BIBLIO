@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 body {
 	background-image: url("images/pont.jpg");
 	background-size: 100%;
@@ -11,6 +12,7 @@ div.titre {
 	box-sizing: 50%;
 	font-size: 300%;
 	background-color: rgba(255,255,255,0.21);
+	font-family: 'Brush Script MT', cursive;
 
 }
 a {
@@ -57,10 +59,8 @@ p {
 .titre1 {
 	font-size: 30px;
 	text-decoration: underline;
+	font-family: 'Nerko One', cursive;
 }
-article > img {
-	float: center;
-} 
 .livre1, .livre2, .livre3{
 	float: center;
 }
