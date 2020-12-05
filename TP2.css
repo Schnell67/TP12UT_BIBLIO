@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
 	background-image: url("images/pont.jpg");
 	background-size: 100%;
@@ -61,4 +62,18 @@ p {
 }
 .livre1, .livre2, .livre3{
 	float: center;
+}
+#coupdecoeur {
+	font-size: 80px;
+	/*color: darkred;*/
+	color:  #dd6349 ;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+#nouveaute {
+	font-size: 80px;
+	/*color: darkred;*/
+	color:  #dd6349 ;
+	text-align: center;
+	font-family: 'Lobster', cursive;
 }
