@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
-	background-image: url("images/pont.jpg");
+	background-image: url("../images/pont.jpg");
 	background-size: 100%;
 }
 div {
@@ -19,18 +19,8 @@ div.titre {
 	font-family: 'Brush Script MT', cursive;
 
 }
-nav > a {
-	font-weight: bold;
-	padding:1%;
-	margin-top: 1,5%;
-	margin-right: 1.5%;
-	display: inline-block;
-	width:15%;
-	text-decoration: none;
-	color: #f1aa35;
-	box-sizing: border-box;
-	text-align: center;
-	border-style: solid;
+a {
+	
 }
 a:hover {
 	
@@ -40,10 +30,10 @@ a:hover {
 }
 section {
 	background-color: rgba(255,255,255,0.41);
-	display: flex;
+	/*display: flex;
 	flex-direction: row; 
-	flex-wrap: wrap;
-	margin-top: 5%;
+	flex-wrap: wrap;*/
+	/*margin-top: 5%;*/
 
 }
 article {
@@ -64,7 +54,7 @@ p {
 	font-family: 'Nerko One', cursive;
 }
 .livre1, .livre2, .livre3{
-	float: center;
+	/*float: center;*/
 }
 #coupdecoeur, #nouveaute {
 	font-size: 100px;
@@ -76,5 +66,14 @@ p {
 	font-size: 15px;
 }
 #menu {
-
+	padding:1%;
+	margin-top: 1,5%;
+	margin-right: 1.5%;
+	display: inline-block;
+	width:15%;
+	text-decoration: none;
+	color: #f1aa35;
+	box-sizing: border-box;
+	text-align: center;
+	border-style: solid;
 }
