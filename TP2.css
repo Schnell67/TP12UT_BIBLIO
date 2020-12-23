@@ -5,9 +5,13 @@ body {
 	background-image: url("images/pont.jpg");
 	background-size: 100%;
 }
+div {
+	text-align: center;
+}
 
 div.titre {
 
+	margin: 6px;
 	text-align: center;
 	box-sizing: 50%;
 	font-size: 300%;
@@ -31,6 +35,7 @@ a:hover {
 	
 	color: black;
 	background-color: #f1aa35;
+	opacity: 50%;
 }
 section {
 	background-color: rgba(255,255,255,0.41);
@@ -60,15 +65,12 @@ p {
 .livre1, .livre2, .livre3{
 	float: center;
 }
-#coupdecoeur {
-	font-size: 80px;
+#coupdecoeur, #nouveaute {
+	font-size: 100px;
 	color:  #dd6349 ;
 	text-align: center;
 	font-family: 'Lobster', cursive;
 }
-#nouveaute {
-	font-size: 80px;
-	color:  #dd6349 ;
-	text-align: center;
-	font-family: 'Lobster', cursive;
+.menu {
+	font-size: 15px;
 }
