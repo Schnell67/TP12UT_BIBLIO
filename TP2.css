@@ -4,7 +4,6 @@
 body {
 	background-image: url("images/pont.jpg");
 	background-size: 100%;
-	/*background-repeat: no-repeat;*/
 }
 
 div.titre {
@@ -44,9 +43,7 @@ section {
 article {
 	flex-basis: 30%;
 	font-size: 20px;
-	margin-right: 2%;/*
-	border-style: solid;
-	line-height: 20px;*/
+	margin-right: 2%;
 }
 img {
 	padding-left: 5%;
@@ -65,14 +62,12 @@ p {
 }
 #coupdecoeur {
 	font-size: 80px;
-	/*color: darkred;*/
 	color:  #dd6349 ;
 	text-align: center;
 	font-family: 'Lobster', cursive;
 }
 #nouveaute {
 	font-size: 80px;
-	/*color: darkred;*/
 	color:  #dd6349 ;
 	text-align: center;
 	font-family: 'Lobster', cursive;
