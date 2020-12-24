@@ -5,7 +5,7 @@
 <head>
 	<title>Bibliothèque</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="livre.css">
+	<link rel="stylesheet" type="text/css" href="emprunt.css">
 </head>
 <body>
 
@@ -22,22 +22,28 @@
 		</nav>
 	</div>
 
-	<p id="coupdecoeur">Le livre du voyage</p>
+	<p id="coupdecoeur">Emprunt d'un livre</p>
 
 	<section>
+		<label for="livre">Choisissez un livre dans la liste :</label>
+
+			<select name="livre" id="livre">
+			    <option value="">--choississez votre livre--</option>
+			    <option value="livre1">Le livre du voyage</option>
+			    <option value="livre2">Drive your adventure</option>
+			    <option value="livre3">Terres secrètes</option>
+			    <option value="livre4">Into the wild</option>
+			    <option value="livre5">Antactique, rêve d'une vie</option>
+			    <option value="livre6">Diagonale du vide</option>
+			    <option value="livre7">Linux c'est gratuit</option>
+			    <option value="livre8">Java pour les nuls</option>
+			</select>
+
+			<form action="" method="post">
+  				<div class="button">
+        		<button type="submit">Emprunter ce livre</button>
+
 		
-
-		<article>
-			<img class="livre1" src="../images/livre_du_voyage.jpg" height="auto" width="30%" />
-			<p class="titre1">Le livre du voyage (Bernard Werber, 1997)</p>
-			<p>Imaginez un livre qui serait comme un ami de papier. Imaginez un livre qui vous aide à explorer votre propre esprit. Imaginez un livre qui vous entraîne vers le plus beau, le plus simple et le plus étonnant des voyages. Un voyage dans votre vie. Un voyage dans vos rêves. Un voyage hors du temps. Ce livre vous le tenez entre vos mains. </p>
-			<p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
-			
-			
-		</article>
-
-		
-
 	</section>	
 </body>
 </html>
