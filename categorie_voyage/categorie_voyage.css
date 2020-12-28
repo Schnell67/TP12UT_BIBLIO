@@ -38,8 +38,6 @@ article > a {
 	font-family: 'Nerko One', cursive;
 	color: black;
 }
-
-
 a:hover {
 	
 	color: black;
@@ -59,22 +57,10 @@ article {
 	font-size: 20px;
 	margin-right: 2%;
 }
-img {
-	padding-left: 5%;
-	float: right;
-}
 p {
 	font-size: 20px;
 }
-.titre1  {
-	font-size: 30px;
-	text-decoration: underline;
-	font-family: 'Nerko One', cursive;
-}
-.livre1, .livre2, .livre3{
-	float: center;
-}
-#coupdecoeur, #nouveaute {
+#voyage {
 	font-size: 100px;
 	color:  #dd6349 ;
 	text-align: center;
@@ -85,5 +71,4 @@ p {
 }
 td > a {
 	text-decoration: none;
-	/*padding: 50%;*/
 }
