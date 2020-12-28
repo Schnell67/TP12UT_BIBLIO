@@ -54,3 +54,7 @@ section {
 .menu {
 	font-size: 15px;
 }
+#livre, #nom, #date, #resume, #photo {
+	/*margin: 1px;*/
+	padding: 5px;
+}

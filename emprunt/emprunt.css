@@ -66,3 +66,8 @@ p {
 	font-size: 15px;
 }
 
+#choix, #date {
+	margin: 10px;
+	padding: 10px;
+}
+
