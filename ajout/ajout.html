@@ -25,27 +25,27 @@
 	<section>
 
 	<form id="livre" action="" method="post">
-  		<label for="POST-name">Entrez le nom du livre :</label>
-  		<input id="POST-name" type="text" name="nom">
+  		<label for="POST-nom">Entrez le nom du livre :</label>
+  		<input id="POST-nom" type="text" name="nom" required placeholder="ex:Le livre du voyage">
 	</form>
 	<form id="nom" action="" method="post">
-  		<label for="POST-name">Entrez le nom de l'auteur :</label>
-  		<input id="POST-name" type="text" name="auteur">
+  		<label for="POST-auteur">Entrez le nom de l'auteur :</label>
+  		<input id="POST-auteur" type="text" name="auteur" required placeholder="ex:Mike Horn">
 	</form>
 	<form id="date" action="" method="post">
-  		<label for="POST-name">Entrez la date de publication :</label>
-  		<input id="POST-name" type="text" name="publication">
+  		<label for="POST-date">Entrez la date de publication :</label>
+  		<input id="POST-date" type="text" name="publication" required pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Sous forme JJ/MM/AA">
 	</form>
-	<form id="resume" action="" method="post">
-  		<label for="POST-name">Entrez un résumé du livre :</label>
-  		<input id="POST-name" type="text" name="resume">
+	<form id="resume" action="" method="post" type="textarea">
+  		<label for="POST-resume">Entrez un résumé du livre :</label>
+  		<input id="POST-resume" type="text" name="resume">
 	</form>
 
 	<form id="photo" action="" method="post">
 	<label for="image">Choisissez une photo de couverture:</label>
 	<input type="file"
 	       id="image" name="image"
-	       accept="image/png, image/jpeg">
+	       accept="image/png, image/jpeg" required>
 	</form>
 
 	<div class="button">
