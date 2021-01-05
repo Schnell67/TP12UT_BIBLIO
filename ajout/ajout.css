@@ -58,15 +58,6 @@ section {
 	padding: 5px;
 }
 #POST-resume {
-	/*padding-top: 0px;
-	padding: 80px;
-	background-size: 6px;*/
-	/*width: 40px;*/
-	height: 400px;
-	width: 400px;
-	padding: 0px;
+	display: inline-block;
+	inline-size: -moz-available;
 }
-/*input {
-	height: 50px;
-	width: 300px;
-}*/
